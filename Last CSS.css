@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Share+Tech+Mono&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url("C:/Users/Nirvana Andriyanto/OneDrive/Documents/KUMPUL DASPROG/Tugas Akhir LandingPge/stock-1863880_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Geologica', sans-serif;
+}
+
+.logo img {
+    width: 70px;
+    /* Sesuaikan ukuran logo sesuai kebutuhan Anda */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+}
+
+nav ul li a:hover {
+    background-color: green;
+    border-radius: 2.5px;
+    /* Ganti warna saat dihover sesuai keinginan Anda */
+}
+
+
+.konten {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-top: 50px;
+    font-family: 'Share Tech Mono', monospace;
+    color: white
+}
+
+p {
+    color: white;
+    margin-top: 2px;
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 16px;
+
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-top: 35px;
+    margin-bottom: 27.3vh;
+    font-size: 8px;
+    font-weight: bold;
+    background-color: darkgreen;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #90ee10;
+}
